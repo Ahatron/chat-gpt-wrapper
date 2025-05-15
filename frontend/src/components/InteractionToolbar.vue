@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex border-lg">
+  <div class="d-flex border-lg rounded-lg">
     <v-textarea
       v-model="message"
       :disabled="alertStore.loading"
